@@ -22,3 +22,11 @@ function nicknameGenerator(name){
 
 ## Work experience:
 I did a couple of assignments at the university related to website development. *It didn't work out very well, but it was interesting.*
+
+## Education and courses:
+1.	CS50 video course
+2.	JavaScript https://learn.javascript.ru/
+3.	Coursera Course: Learning How to Learn: Powerful mental tools to help you master tough subjects
+
+## Language:
+English level (in 2014) - B2

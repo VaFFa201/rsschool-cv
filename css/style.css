@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-weight: inherit;
     background-color: #f0f0f0;
 }
 
@@ -11,4 +11,22 @@ main {
     width: 1200px;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+header h2{
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.container{
+    padding: 40px;
+}
+
+.sidebar{
+    background-color: #595972;
+    color: white;
 }

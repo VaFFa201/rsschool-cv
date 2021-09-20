@@ -17,11 +17,25 @@ header {
     padding-bottom: 64px;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 49px;
+    margin: 0;
+    color: #E8D700;
+}
+
 .container {
     max-width: 1010px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
+/* .centered {
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .menu {
     list-style: none;
@@ -84,7 +98,7 @@ header {
 }
 
 .hero-content {
-    height: 570px;
+    height: 580px;
 }
 
 .hero-img {
@@ -118,3 +132,121 @@ header {
     font-weight: 200;
     font-size: 36px;
 }
+
+.about-me {
+    margin-top: 124px;
+    padding: 19px 30px;
+    background: #353548;
+    border-radius: 20px;
+}
+
+.about-me h2 {
+    padding-left: 85px;
+}
+
+.about-me p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.hard-skills {
+    margin-top: 124px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px 30px;
+    max-width: 840px;
+    background: #353548;
+    border-radius: 20px;
+}
+
+.hard-skills h2 {
+    text-align: center;
+}
+
+.skills {
+    display: inline-grid;
+    list-style-type: none;
+    grid-template-rows: repeat(3, auto);
+    gap: 28px;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-point:nth-child(3n - 2) {
+    grid-row: 1 / 2;
+}
+
+.skill-point:nth-child(3n - 1) {
+  grid-row: 2 / 3;
+}
+
+.skill-point:nth-child(3n) {
+  grid-row: 3 / 4;
+}
+
+.skill-point {
+    position: relative;
+    margin-left: 12px;
+    width: fit-content;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.projects {
+    margin-top: 124px;
+    padding: 19px 30px;
+    background: #353548;
+    border-radius: 20px;
+}
+
+.projects h2 {
+    padding-left: 85px;
+}
+
+.project-list {
+    list-style-type: none;
+}
+.project-card-1 {
+    background-image: url(img/drag-n-drop.png);
+
+}
+
+.project-list a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.project-card {
+    width: 576px;
+    height: 345px;
+    margin-top: 50px;
+}
+
+.project-card img{
+    border-radius: 20px;
+}
+
+.project-card-2 {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.project-card-3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code-example {
+    margin-top: 124px;
+    padding: 19px 30px;
+    background: #353548;
+    border-radius: 20px;
+}
+
+.code-example h2 {
+    text-align: center;
+}
+
+

@@ -1,18 +1,37 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     background-color: #595972;
     color: white;
 }
 
-.container {
+img {
+    max-width: 100%;
+}
 
+header {
+    padding-bottom: 64px;
+}
+
+.container {
+    max-width: 1010px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .menu {
     list-style: none;
     margin: 40px 0 5px;
     padding: 25px 0 5px;
-    text-align: right;
+    text-align: center;
+}
+
+.burger {
+    display: none;
 }
 
 .menu-item {
@@ -20,6 +39,9 @@ body{
 }
 
 .menu-item a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
     text-decoration: none;
     color: #fff;
     position: relative;
@@ -38,9 +60,9 @@ body{
     position: absolute;
     height: 2px;
     top: auto;
-    right: 50%;
+    right: 49.5%;
     bottom: -5px;
-    left: 50%;
+    left: 50.5%;
     background: #E8D700;
     transition: .8s;
 }
@@ -59,4 +81,40 @@ body{
     padding: 25px 0 20px; 
     margin: 0 30px;
 }
+}
+
+.hero-content {
+    height: 570px;
+}
+
+.hero-img {
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+.hero-content-box{
+    display: flex;
+    position: relative;
+    top: 150px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    background: #353548;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.hero-greetings { 
+    padding: 18px 23px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+#name {
+    font-weight: 600;
+}
+
+#job {
+    font-weight: 200;
+    font-size: 36px;
 }

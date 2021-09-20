@@ -1,1 +1,1 @@
-https://VaFFa201.github.io/rsschool-cv/cv
+https://VaFFa201.github.io/rsschool-cv/

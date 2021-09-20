@@ -7,67 +7,90 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <ul>
+                    <li class="menu-item"><a href="#about-me">about</a></li>
+                    <li class="menu-item"><a href="#hard-skills">skills</a></li>
+                    <li class="menu-item"><a href="#hard-skills">language</a></li>
+                    <li class="menu-item"><a href="#projects">projects</a></li>
+                    <li class="menu-item"><a href="#code-example">code</a></li>
+                    <li class="menu-item"><a href="#contacts">contacts</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <input id="menu_toggle" type="checkbox" />
+                    <label class="menu_btn" for="menu_toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu_box">
+                        <li><a class="menu_item" href="#about-me">About</a></li>
+                        <li><a class="menu_item" href="#hard-skills">Skills</a></li>
+                        <li><a class="menu_item" href="#hard-skills">Language</a></li>
+                        <li><a class="menu_item" href="#projects">Projects</a></li>
+                        <li><a class="menu_item" href="#code-example">Code</a></li>
+                        <li><a class="menu_item" href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
     <main>
-        <aside class="sidebar">
-            <img src="img/Fedorov_Ivan.png" alt="Fedorov Ivan">
-            <div class="container">
-                <section class="contacts">
-                        <h2 class="sidebar-header">Contact</h2>
-                    <h3>Phone number</h3>
-                    <a class="tel" href="tel:79199057215">+7-919-905-72-15</a>
-                    <h3>Email</h3>
-                        <a class="mail" href="mailto:fedorov_iv00@mail.ru">fedorov_iv00@mail.ru</a>
-                </section>
-                <section class="education">
-                    <h2 class="sidebar-header">Education</h2>
-                    <h3>2007&nbsp;&mdash; 2018</h3>
-                        <span>Secondary general education school No. 91 
-                        with in-depth study of individual subjects</span>
-                    <h3>2018&nbsp;&mdash; 2022</h3>
-                        <span>Izhevsk State Technical University named after M. T. Kalashnikov
-                        Faculty: IIVT
-                        Department: ASOIU</span>
-                </section>
-            </div>
-        </aside>
-        <div class="main-content">
-            <div class="container">
-                <header>
-                    <h1>Fedorov Ivan</h1>
-                    <h2>Front-End Developer</h2>
-                </header>
-                <section class="info">
-                    <h2 class="main-header">Personal information</h2>
-                    <p>There are no bad habits, I do sports. I like to cook, 
+        <div class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-img">
+                        <img src="img/Fedorov_Ivan.png" alt="Fedorov Ivan">
+                    </div>
+                    <div class="hero-content-box">
+                        <h1 class="hero-greetings">
+                            Hello, my name is <span id="name">Fedorov Ivan</span>
+                            <span id="job">Front-End Developer</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+            <section class="about-me">
+                <h2 id="about-me">about me</h2>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are no bad habits, I do sports. I like to cook, 
                     I periodically spend time playing computer games. Previously, 
                     I was engaged in music(I played the drum kit and guitar). 
                     In my future position, I want to get "combat" development experience. 
                     I want to become a specialist in the field of frontend development.</p>
-                </section>
-                <section class="skills">
-                    <h2 class="main-header">Core skill</h2>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript Basics</li>
-                        <li>VS Code</li>
-                        <li>Figma</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Git, GitHub</li>
-                    </ul>
-                </section>
-                <section class="exp">
-                    <h2 class="main-header">Work experience</h2>
-                    <span>There is no work experience in this area.</span>
-                </section>
-                <section class="example">
-                    <h2 class="main-header">Code example</h2>
+            </section>
+            <section class="hard-skills">
+                <h2 id="hard-skills">hard skills</h2>
+                <ul class="skills">
+                    <li class="skill-point">HTML</li>
+                    <li class="skill-point">Figma</li>
+                    <li class="skill-point">C#</li>
+                    <li class="skill-point">CSS</li>
+                    <li class="skill-point">Git</li>
+                    <li class="skill-point">SQL</li>
+                    <li class="skill-point">JavaScript</li>
+                    <li class="skill-point">Photoshop</li>
+                    <li class="skill-point">English - B2</li>
+                </ul>
+            </section>
+            <section class="projects">
+                <h2 id="projects">projects</h2>
+                <ul class="project-list">
+                    <li class="project-card project-card-1"><a href="https://jsfiddle.net/VaFFa/rhn634ug/2/"><img src="img/gallery.png" alt="Gallery"></a></li>
+                    <li class="project-card project-card-2"><a href="https://jsfiddle.net/VaFFa/k716fegm/1/"><img src="img/slide.png" alt="Slider"></a></li>
+                    <li class="project-card project-card-3"><a href="https://jsfiddle.net/VaFFa/d3y5k79r/1/"><img src="img/drag-n-drop.png" alt="Drag-n-drop"></a></li>
+                </ul>
+            </section>
+            <section class="code-example">
+                <h2 id="code-example">code example</h2>
+                <div class="code-card">
                     <pre>
-                        <code class="html">
+                        <code class="language-javascript hljs">
                         function nicknameGenerator(name){
                             if(name.length &#60; 4)
                               return "Error: Name too short";
@@ -77,14 +100,30 @@
                           }
                         </code>
                     </pre>
-                </section>
-            </div>
-            <footer class="footer">
-                <a href="https://github.com/VaFFa201"><img src="img/free-icon-github-logo-25231.svg" width="40" height="40" alt="my GitHub"></a>
-                <div class="copyright">&copy;2021</div>  
-                <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" width="40" height="40" alt="my GitHub"></a>
-            </footer>
+                </div>
+            </section>
         </div>
     </main>
+    <footer class="footer">
+        <div class="contaier">
+            <div class="footer-contacts">
+                <h3 id="contacts">Contacts</h3>
+                <ul class="contact-list">
+                    <li class="contact-point"><a href="tel:+79199057215">+7-919-905-72-15</a></li>
+                    <li class="contact-point"><a href="mailto:fedorov_iv00@mail.ru">fedorov_iv00@mail.ru</a></li>
+                    <li class="contact-point"><a href="https://t.me/VaFFa_cd">Telegram</a></li>
+                    <li class="contact-point"><a href="https://vk.com/vaffa_cd">Вконтакте</a></li>
+                </ul>
+            </div>
+            <div class="footer-task">
+                <ul class="task-list">
+                    <li class="task-point left"><a href="https://github.com/VaFFa201"><img src="img/free-icon-github-logo-25231.svg" width="40" height="40" alt="my GitHub"></a></li>
+                    <li class="task-point">&copy;2021</li>
+                    <li class="task-point right"><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" height="40" alt="RSschool"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>

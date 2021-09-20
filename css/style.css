@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 1200px;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+section{
+    padding-bottom: 50px;
+}
+
+header {
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+header h2{
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.container{
+    padding: 40px;
+}
+
+.sidebar{
+    background-color: #595972;
+    color: white;
+}
+
+.sidebar-header, .main-header {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.main-header{
+    background-color: #EDEDED;
+}
+
+.sidebar-header {
+    background-color: #353548;
+}
+
+.contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mail, .tel{
+    text-decoration: none;
+    color: #fff;
+}
+
+.skills li{
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 60px 20px 60px;
+    background-color: #EDEDED;
+}
+
+.copyright{
+    margin-left: auto;
+    margin-right: auto;
+}

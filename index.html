@@ -16,14 +16,33 @@
         <div class="container">
             <nav class="menu">
                 <ul>
-                    <li class="menu-item"><a href="">about</a></li>
-                    <li class="menu-item"><a href="">skills</a></li>
+                    <li class="menu-item"><a href="#about-me">about</a></li>
+                    <li class="menu-item"><a href="#hard-skills">skills</a></li>
                     <li class="menu-item"><a href="">language</a></li>
-                    <li class="menu-item"><a href="">projects</a></li>
-                    <li class="menu-item"><a href="">code</a></li>
-                    <li class="menu-item"><a href="">contacts</a></li>
+                    <li class="menu-item"><a href="#projects">projects</a></li>
+                    <li class="menu-item"><a href="#code-example">code</a></li>
+                    <li class="menu-item"><a href="#contacts">contacts</a></li>
                 </ul>
-                <button class="burger">brg</button>
+                <div class="hamburger-menu">
+                    <input id="menu_toggle" type="checkbox" />
+                    <label class="menu_btn" for="menu_toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu_box">
+                        <li><a class="menu_item" href="#about-me">About</a></li>
+                        <li><a class="menu_item" href="#hard-skills">Skills</a></li>
+                        <li><a class="menu_item" href="#">Language</a></li>
+                        <li><a class="menu_item" href="#projects">Projects</a></li>
+                        <li><a class="menu_item" href="#code-example">Code</a></li>
+                        <li><a class="menu_item" href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <!-- <button class="burger">
+                    <div class="burger-slice"></div>
+                    <div class="burger-slice"></div>
+                    <div class="burger-slice"></div>
+                </button> -->
             </nav>
         </div>
     </header>
@@ -43,7 +62,7 @@
                 </div>
             </section>
             <section class="about-me">
-                <h2>about me</h2>
+                <h2 id="about-me">about me</h2>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are no bad habits, I do sports. I like to cook, 
                     I periodically spend time playing computer games. Previously, 
                     I was engaged in music(I played the drum kit and guitar). 
@@ -51,7 +70,7 @@
                     I want to become a specialist in the field of frontend development.</p>
             </section>
             <section class="hard-skills">
-                <h2>hard skills</h2>
+                <h2 id="hard-skills">hard skills</h2>
                 <ul class="skills">
                     <li class="skill-point">HTML</li>
                     <li class="skill-point">Figma</li>
@@ -64,7 +83,7 @@
                 </ul>
             </section>
             <section class="projects">
-                <h2>projects</h2>
+                <h2 id="projects">projects</h2>
                 <ul class="project-list">
                     <li class="project-card project-card-1"><a href="https://jsfiddle.net/VaFFa/rhn634ug/2/"><img src="img/gallery.png" alt="Gallery"></a></li>
                     <li class="project-card project-card-2"><a href="https://jsfiddle.net/VaFFa/k716fegm/1/"><img src="img/slide.png" alt="Slider"></a></li>
@@ -72,7 +91,7 @@
                 </ul>
             </section>
             <section class="code-example">
-                <h2>code example</h2>
+                <h2 id="code-example">code example</h2>
                 <div class="code-card">
                     <pre>
                         <code class="language-javascript hljs">
@@ -92,7 +111,7 @@
     <footer class="footer">
         <div class="contaier">
             <div class="footer-contacts">
-                <h3>Contacts</h3>
+                <h3 id="contacts">Contacts</h3>
                 <ul class="contact-list">
                     <li class="contact-point"><a href="tel: 79199057215">+7-919-905-72-15</a></li><a href=""></a>
                     <li class="contact-point"><a href="mailto:fedorov_iv00@mail.ru">fedorov_iv00@mail.ru</a></li>

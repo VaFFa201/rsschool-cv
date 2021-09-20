@@ -74,27 +74,37 @@
             <section class="code-example">
                 <h2>code example</h2>
                 <div class="code-card">
-                    Code
+                    <pre>
+                        <code class="language-javascript hljs">
+                        function nicknameGenerator(name){
+                            if(name.length &#60; 4)
+                              return "Error: Name too short";
+                            if(/[aeiou]/i.test(name[2]))
+                              return name.substr(0, 4)
+                            return name.substr(0, 3)
+                          }
+                        </code>
+                    </pre>
                 </div>
             </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="contairer">
+        <div class="contaier">
             <div class="footer-contacts">
-                <h3>contacts</h3>
+                <h3>Contacts</h3>
                 <ul class="contact-list">
-                    <li class="contact-point">+7-919-905-72-15</li>
-                    <li class="contact-point">fedorov_iv00@mail.ru</li>
-                    <li class="contact-point">*telegram*</li>
-                    <li class="contact-point">*discord*</li>
+                    <li class="contact-point"><a href="tel: 79199057215">+7-919-905-72-15</a></li><a href=""></a>
+                    <li class="contact-point"><a href="mailto:fedorov_iv00@mail.ru">fedorov_iv00@mail.ru</a></li>
+                    <li class="contact-point"><a href="https://t.me/VaFFa_cd">Telegram</a></li>
+                    <li class="contact-point"><a href="https://vk.com/vaffa_cd">Вконтакте</a></li>
                 </ul>
             </div>
             <div class="footer-task">
                 <ul class="task-list">
-                    <li class="task-point">git</li>
-                    <li class="task-point">2021</li>
-                    <li class="task-point">rsschool</li>
+                    <li class="task-point left"><a href="https://github.com/VaFFa201"><img src="img/free-icon-github-logo-25231.svg" width="40" height="40" alt="my GitHub"></a></li>
+                    <li class="task-point">&copy;2021</li>
+                    <li class="task-point right"><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" height="40" alt="RSschool"></a></li>
                 </ul>
             </div>
         </div>

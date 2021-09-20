@@ -19,12 +19,6 @@ body{
     display: inline-block;
 }
 
-.menu-item:after {
-    color: #606060;
-    display: inline-block;
-    vertical-align:top;
-}
-
 .menu-item a {
     text-decoration: none;
     color: #fff;
